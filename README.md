@@ -6,6 +6,13 @@
 
 <br>
 
+<img
+  src="https://raw.githubusercontent.com/MeisterSchwarz/MeisterSchwarz/main/profile-summary-card-output/transparent/2-most-commit-language.svg"
+  alt="Most used languages"
+/>
+
+<br><br>
+
 <picture>
   <source
     media="(prefers-color-scheme: dark)"

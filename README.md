@@ -1,4 +1,3 @@
-```md
 <div align="center">
 
 # Hi, I'm Leon 👋
@@ -34,4 +33,3 @@
 > *Simple doesn't mean easy.*
 
 </div>
-```

@@ -2,16 +2,9 @@
 
 # Hi, I'm Leon 👋
 
-**Go enthusiast • Open Source advocate**
+**Go enthusiast • Open Source Advocate**
 
 <br>
-
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MeisterSchwarz&layout=compact&theme=transparent&hide_border=true&langs_count=6"
-  alt="Top Languages"
-/>
-
-<br><br>
 
 <picture>
   <source

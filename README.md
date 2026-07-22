@@ -1,16 +1,37 @@
-## Hi there 👋
+```md
+<div align="center">
 
-<!--
-**MeisterSchwarz/MeisterSchwarz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Leon 👋
 
-Here are some ideas to get you started:
+**Go enthusiast • Open Source advocate**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br>
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=MeisterSchwarz&layout=compact&theme=transparent&hide_border=true&langs_count=6"
+  alt="Top Languages"
+/>
+
+<br><br>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/MeisterSchwarz/MeisterSchwarz/output/github-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/MeisterSchwarz/MeisterSchwarz/output/github-snake.svg"
+  />
+  <img
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/MeisterSchwarz/MeisterSchwarz/output/github-snake.svg"
+  />
+</picture>
+
+<br>
+
+> *Simple doesn't mean easy.*
+
+</div>
+```

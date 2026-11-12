@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="150" viewBox="0 0 760 150" role="img" aria-labelledby="title description">
+  <title id="title">Leon — Go enthusiast and open-source developer</title>
+  <desc id="description">Go, open source and the occasional side quest. A quiet dark header with a violet accent.</desc>
+  <rect width="760" height="150" rx="16" fill="#0d1117"/>
+  <text x="30" y="32" fill="#a371f7" font-family="Consolas, Monaco, monospace" font-size="11" letter-spacing="2">MEISTERSCHWARZ</text>
+  <text x="28" y="78" fill="#e6edf3" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700">Leon.</text>
+  <text x="30" y="108" fill="#aeb7c2" font-family="Arial, Helvetica, sans-serif" font-size="15">Go, open source &amp; the occasional side quest.</text>
+  <path d="M30 132 H730" stroke="#30363d" stroke-width="1"/>
+  <path d="M30 132 H176" stroke="#a371f7" stroke-width="3" stroke-linecap="round"/>
+  <text x="700" y="75" text-anchor="middle" fill="#a371f7" font-family="Consolas, Monaco, monospace" font-size="24">&gt;_</text>
+</svg>

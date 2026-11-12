@@ -1,0 +1,43 @@
+name: Update Codefolio
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
+      timezone: Europe/Berlin
+
+permissions:
+  contents: write
+
+concurrency:
+  group: codefolio-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v6
+      - name: Generate SVGs
+        uses: MeisterSchwarz/codefolio@main
+        with:
+          user: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          output: dist
+          theme: dark
+      - name: Add spacing to profile cards
+        run: python3 .github/scripts/pad_cards.py
+      - name: Commit SVGs
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for card in languages repositories repository-ownership activity collaboration community churn language-trends; do
+            git add -- "dist/$card.svg"
+          done
+          git add -- assets/cards/languages.svg assets/cards/repositories.svg assets/cards/repository-ownership.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Codefolio stats"
+            git push
+          fi

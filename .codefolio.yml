@@ -1,0 +1,26 @@
+languages:
+  exclude:
+    - Markdown
+    - SVG
+  min_percentage: 0.5
+
+analysis:
+  include_forks: false
+  include_archived: false
+
+repositories:
+  additional:
+    - name: uas-zwickau-aiis/node-red-contrib-iec104
+      color: "#58a6ff"
+
+render:
+  activity:
+    period: last_12_months
+    colors:
+      - "#a371f7"
+      - "#3fb950"
+      - "#f0883e"
+      - "#f778ba"
+      - "#d29922"
+      - "#39c5cf"
+      - "#58a6ff"
